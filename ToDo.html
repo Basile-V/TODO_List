@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ToDo List</title>
+    <link href="style/designList.css" rel="stylesheet">
+    <script src="script/request.js"></script>
+  </head>
+  <body>
+    <h1>To do List</h1>
+    <div id="profil">
+      <div id="connect">
+        <input type="submit" value="logout" onclick="logout()">
+      </div>
+      <div id="disconnect">
+        <form id="registration" method="post">
+          <legend> Registre : </legend>
+          <p id="regist_err"></p>
+        	<input type="text" placeholder="User name" name="pseudo" required><br>
+        	<input type="password" placeholder="Password" name="psw" required><br>
+        	<input type="button" value="Registration" onclick="registration()">
+        </form>
+        <form id="login" method="post">
+          <legend> Login : </legend>
+          <p id="log_err"></p>
+        	<input type="text" placeholder="User name" name="pseudo" required><br>
+        	<input type="password" placeholder="Password" name="psw" required><br>
+        	<input type="button" value="login" onclick="login()">
+        </form>
+      </div>
+    </div>
+    <div>
+      <form id="newItem" method="post">
+        <legend> Add a new item : </legend>
+      	<input type="text" placeholder="content" name="content" required><br>
+        <input type="text" placeholder="tag" name="tag" required><br>
+      	<input type="button" value="add" onclick="newItem()">
+      </form>
+    </div>
+    <div id="choice">
+
+    </div>
+    <div id="list">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "items" : [
+      {"id" : 0, "author" : 0, "tag" : 0, "content" : "eat"}
+  ],
+  "tags" : [
+    {"id" : 0, "name" : "important"}
+  ],
+  "users" : [
+    {"id" : 0, "name" : "Basile", "password" : "369248"},
+    {"id" : 1, "name" : "John", "password" : "3630"}
+  ]
+}

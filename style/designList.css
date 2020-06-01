@@ -1,0 +1,108 @@
+[class*="col"] {
+  margin-bottom: 20px;
+}
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 18px;
+  background-color: #ffffb3;
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1{
+  text-align: center;
+}
+
+#profil{
+  display: block ruby;
+  border: none;
+}
+
+div{
+  border: solid 1px black;
+  margin-bottom: 25px;
+}
+
+#choice{
+  text-align: center;
+  padding: 25px;
+}
+
+*
+{
+	font-family : Verdana;
+}
+
+
+#connect
+{
+  text-align: center;
+  padding-bottom: 8px;
+  height: 100%;
+  border: none;
+}
+
+#newItem{
+  text-align: center;
+  border: none;
+  padding: 25px;
+}
+
+#disconnect
+{
+  text-align: left;
+  margin-left: 50%;
+  padding-top: 1px;
+  padding-bottom: 8px;
+  border: none;
+}
+
+#registration{
+  margin: 15px;
+}
+
+#login{
+  margin: 15px;
+}
+
+input[type=submit]
+{
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 30px;
+}
+
+input[type=submit]:hover
+{
+  background-color: #87CEFA;
+  color: black;
+}
+
+
+#list{
+  background-color: #ffff99;
+  display: grid;
+}
+
+.item{
+  display: initial;
+  text-align: center;
+  padding: 30px;
+  border: solid 1px black;
+  margin: 25px;
+  background-color: #ffff66;
+}
+
+#regist_err, #log_err{
+  color: red;
+}
+
+legend{
+  color: black;
+}
